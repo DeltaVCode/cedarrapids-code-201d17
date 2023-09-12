@@ -1,0 +1,90 @@
+/* * {
+  outline: dashed 2px rgb(118, 249, 79);
+} */
+
+body {
+  background-color: dodgerblue;
+  margin: 0 auto;
+  width: 1200px;
+}
+
+main {
+  background-color: aqua;
+}
+
+strong {
+  font-weight: bold;
+}
+h2 {
+  color: rgb(41, 88, 129);
+  font-size: 40px;
+}
+
+header {
+  border: 5px solid rgb(0, 225, 255);
+  border-radius: 15px;
+  height: 150px;
+  background-color: darkturquoise;
+  margin-bottom: 100px;
+}
+
+nav ul {
+  margin-top: 55px;
+}
+
+li {
+  display: inline;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: chartreuse;
+  border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  background-color: skyblue;
+  height: 100px;
+}
+
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+
+
+/* id and classes demo  */
+/* id should be used only once  */
+#anotherStyle {
+  background-color: #ffa500;
+  font-size: 53px;
+  color: azure;
+}
+/* classes we can many time over  */
+.more-styles {
+  background-color: rgb(251, 0, 255);
+  color: azure;
+}
+
+p{
+  font-size: 20px;
+  background-color: rgb(165, 200, 60);
+}
