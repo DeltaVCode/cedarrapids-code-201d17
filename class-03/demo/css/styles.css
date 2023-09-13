@@ -1,0 +1,42 @@
+
+
+body {
+  background-color: #8f5cc2;
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 25px;
+  background-image: linear-gradient(#d3aef8, #8f5cc2); 
+  background-repeat: no-repeat;
+}
+
+header{
+  background-color: #8f5cc2;
+}
+main{
+  background-color: #d3aef8;
+}
+
+footer {
+  text-align: center;
+  padding:  25px; 
+  /* t r b l */
+  margin-top: 25px; 
+}
+
+
+.inline-p {
+  display: inline;
+}
+
+
+#empty-div {
+  width: 150px;
+  height: 100px;
+  color: aliceblue;
+  background-color: #6408c7;
+}
+
+#overflow-box {
+  max-height: 150px;
+  overflow: scroll;
+}
