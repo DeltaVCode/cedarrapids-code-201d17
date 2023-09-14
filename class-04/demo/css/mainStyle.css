@@ -1,0 +1,59 @@
+
+
+body{
+  background-color: rgb(177, 239, 53);
+  color: green;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 26px;
+}
+
+section {
+  margin-bottom: 150px;
+  background-color: #7E52A0;
+  height: 50px;
+  color: azure;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+header {
+  margin-top: 55px;
+}
+
+ul {
+  background-color: rgb(131, 42, 131);
+  border: 5px solid rgb(238, 66, 238);
+
+}
+li {
+  display: inline;
+}
+a{
+  color:rgb(238, 66, 238)
+}
+
+main {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  text-justify: inter-word;
+}
+
+footer{
+  background-color: #7E52A0;
+  height: 175px;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+
+.price {
+ position: fixed;
+}
+
+.parent{
+top: 30px;
+position: relative;
+}
