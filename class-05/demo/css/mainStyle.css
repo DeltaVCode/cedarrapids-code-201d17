@@ -1,0 +1,55 @@
+/* basic body styl set  */
+
+body {
+  background-color: #3F88C5;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  text-align: center;
+  padding: 15px;
+  /* border: solid 5px greenyellow; */
+}
+
+li {
+  display: inline;
+  margin: 0 20px;
+}
+
+h1 {
+  font: xx-large;
+  margin-bottom: 10px;
+}
+
+section {
+background-color: #032B43;
+display: block;
+padding: 50px;
+width: 50%;
+margin: 20px auto;
+position: relative;
+height: 200px;
+}
+
+#static{
+  position: static;
+  top: 0px;
+}
+
+#relative{
+  position: relative;
+  top: 0px;
+  left: 300px;
+}
+
+#absolute {
+  position: absolute;
+  top: 0px;
+  right: 20px;
+}
+
+#fixed {
+  position: fixed;
+  top: 0px;
+  right: 20px;
+}

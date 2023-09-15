@@ -1,0 +1,65 @@
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: #9AE19D;
+	font-size: 48px;
+	text-align: center;
+}
+
+main{
+  background-color: #909590;
+	width: 70%;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 72px;
+	margin-left: 50px;
+}
+
+section {
+  background-color: #537A5A;
+  margin: 20px auto;
+}
+
+img{
+  /* border-collapse: collapse; */
+  border: 5px solid rgb(77,235,135);
+}
+
+.floaty img {
+  float: left;
+  padding: 25px;
+}
+
+/* use clear to fix the float issue of the other elements not seeing the floated content.  */
+.floaty:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col-4 img {
+  width: 25%;
+}
+.col-2 img{
+  width: 50%
+}
+
+.flexy {
+  display: flex;
+}
+
+.flexy img {
+  flex: 1;
+  min-width: 0;
+
+  padding: 25px;
+}
