@@ -43,7 +43,6 @@ CookieStand.prototype.randRate = function(){
 
 CookieStand.prototype.createHourlyRateTable = function(){
   this.trEl = document.createElement('tr');
-  CookieStand.standsTable.appendChild(this.trEl);
   let locCSArray = this.cookieSoldArray.slice(0);
   // this.cookieSoldArray.unshift(this.name);
 
@@ -52,6 +51,9 @@ CookieStand.prototype.createHourlyRateTable = function(){
     this.tdEl.textContent = locCSArray[i];
     this.trEl.appendChild(this.tdEl);
   }
+
+  // Add row to table once it is populated
+  CookieStand.standsTable.appendChild(this.trEl);
 };
 
 let makeHeaderRow = function(){
