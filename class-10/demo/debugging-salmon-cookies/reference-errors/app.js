@@ -14,10 +14,10 @@ const state = {
 
 //TODO add no maximum lower than minimum if(min > max) {return alert('min must be less than max')}
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-function CookieStand(name, minCustomers, max, aveCookies) {
+function CookieStand(name, minCustomers, maxCustomers, aveCookies) {
   this.name = name;
   this.min = minCustomers;
-  this.max = max;
+  this.max = maxCustomers;
   this.aveCookies = aveCookies;
   this.openTime = 6;
   this.closeTime = 21;
