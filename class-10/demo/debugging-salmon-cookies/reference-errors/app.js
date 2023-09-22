@@ -50,8 +50,8 @@ CookieStand.prototype.randomRate = function () {
     this.cookieSoldArray.push(
       Math.floor(
         this.aveCookies *
-          (Math.random() * (this.maxCustomers - this.minCustomers + 1) +
-            this.minCustomers)
+          (Math.random() * (this.max - this.min + 1) +
+            this.min)
       )
     );
   }
