@@ -44,7 +44,7 @@ CookieStand.prototype.randRate = function(){
 CookieStand.prototype.createHourlyRateTable = function(){
   this.trEl = document.createElement('tr');
   let locCSArray = this.cookieSoldArray.slice(0);
-  // this.cookieSoldArray.unshift(this.name);
+  locCSArray.unshift(this.name);
 
   for(let i = 0; i < locCSArray.length; i++){
     this.tdEl = document.createElement('td');
