@@ -2,11 +2,10 @@
 
 //global Variables
 CookieStand.totalHourArray = [];
-CookieStand.storeForm = document.getElementById('sam');
+CookieStand.storeForm = document.getElementById('storeForm');
 CookieStand.standsTable = document.getElementById('stands-table');
 console.log(document.getElementById('stands-table'));
 //all are props of CoookieS
-
 // State object holds the holds the current state of the application (all existing CookieStands and Location Refs)
 const state = {
   allCookieStands: [],
@@ -148,6 +147,6 @@ let sumColumns = function(){
     trEl.appendChild(tdEl);
   };
 };
-sumSams();
+sumColumns();
 
 //img carousel
