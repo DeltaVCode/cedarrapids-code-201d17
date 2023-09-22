@@ -33,7 +33,7 @@ function CookieStand(name, minCustomers, maxCustomers, aveCookies){
 CookieStand.prototype.randRate = function(){
   for(let i = 0; i < (this.closeTime - this.openTime); i++){
     this.cookieSoldArray.push(Math.floor(this.aveCookies * (Math.random() * (this.maxCustomers - this.minCustomers + 1) + this.minCustomers)));
-  };
+  }
   this.cookieSoldTotal = 0;
   for(i in this.cookieSoldArray){
     this.cookieSoldTotal += this.cookieSoldArray[i];
